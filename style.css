@@ -1,0 +1,29 @@
+.container{
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 0 1rem 1rem 1rem !important;
+}
+
+.alert{
+    width: 15rem;
+}
+
+.btn{
+    width: 15rem;
+}

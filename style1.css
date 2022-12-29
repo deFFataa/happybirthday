@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --green: rgb(41, 232, 50);
+}
+body{
+    font-family: var(--sm-font);
+}
+.cover {
+    position: relative;
+}
+
+.container-fluid {
+    height: 100vh;
+    background: rgb(255, 212, 178);
+    background: linear-gradient(90deg, rgba(255, 212, 178, 1) 35%, rgba(255, 246, 189, 1) 100%);
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1671416800 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671416800 svg {
+    position: relative;
+    display: block;
+    width: calc(118% + 1.3px);
+    height: 100px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1671416800 .shape-fill {
+    fill: #ffffff;
+}
+
+.box{
+    padding-top: 1rem;
+}
+
+.cover-photo{
+    height: 100%;
+    width: 35rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn{
+    border: solid 1px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.btn:hover{
+    background: rgb(85, 82, 82, 0.15);
+    border: solid 1.5px rgb(255, 255, 255);
+    transition: all .07s;
+    transform: scale(1.1);
+    color: black;  
+}
+
+.btn:active{
+    background: rgb(85, 82, 82, 0.15);
+    border: solid 1.5px rgb(255, 255, 255);
+    transition: all .07s;
+    color: black;  
+}
+
+.img1{
+    width: 25rem !important;
+}
+
+.vex{
+    height: 100%;
+    width: 100%;
+}
